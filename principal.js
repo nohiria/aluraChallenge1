@@ -99,7 +99,7 @@ inputBlocked.addEventListener("keypress", function(e){
 function checkChar(e){
     const char= String.fromCharCode(e.keyCode);
 
-    if (char.match("[a-z ]" || charCodeat(18))) {
+    if (char.match("[a-z ]") {
         return(true);
     }
 }}
