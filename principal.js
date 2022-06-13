@@ -59,7 +59,7 @@ function btnCopiar() {
 
 //Validar Input
 
-{const inputBlocked= document.querySelector("#captura");
+const inputBlocked= document.querySelector("#captura");
 
 inputBlocked.addEventListener("keypress", function(e){
 
@@ -75,4 +75,4 @@ function checkChar(e){
     if (char.match("[a-z ]")) {
         return(true);
     }
-}}
+}
