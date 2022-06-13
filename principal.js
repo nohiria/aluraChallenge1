@@ -1,30 +1,3 @@
-
-/* función para activar con el botón copiar 
-function btncopiar() {
-
-    var btnMensaje = document.getElementById("input-text-area").value;
-    document.getElementById("input-text").value = btnMensaje;
-    mensaje.value = "";
-    botonCopiar.style.visibility = "hidden";
-    img.style.visibility = "visible";
-    ningumMensajeEncontrado.style.visibility = "visible";
-    textoDeseaDesencriptar.style.visibility = "visible";
-    alert("Copiado y pegado correctamente");
-    img2.style.visibility="hidden";
-    img3.style.visibility="hidden";
-}
-
-/* función para activar con el botón Limpiar el primer recuadro 
-
-function btnlimpiar(){
-
-    document.getElementById("input-text").value="";
-    img2.style.visibility="hidden";
-    img3.style.visibility="hidden";
-}
-
-*/
-
 //ENCRIPTAR
 const captura= document.querySelector("#captura");
 const inputResultado= document.querySelector(".resultado");
