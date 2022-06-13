@@ -1,0 +1,185 @@
+* {
+    margin:0;
+    background-color: #F3F5FC;
+}
+
+h1 {
+   padding: 30px 64px; 
+   float:left;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.campo-captura {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 15% 0px 0px 50px;
+    gap: 10%;
+}
+
+.campo-captura textarea {
+    border: none;
+    font: 28px 'Inter', sans-serif;
+    resize:none;
+    color: #0A3871;
+    outline: none;
+}
+
+.campo-captura ::placeholder {
+    color:#0A3871;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.button-encriptar {
+    width: auto;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    border-color: #0A3871;
+    background-color:#0A3871;
+    color: #FFFFFF;
+}
+
+.button-desencriptar {
+    width: auto;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    border-color: #0A3871;
+    background-color:#F3F5FC;
+    color:#0A3871;
+}
+
+.campo-resultado {
+    display: grid;
+    background-color: #FFFFFF;
+    border-style:hidden;
+    border-radius: 32px;
+    margin: 30px 30px 0px 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    width: 200px;
+    margin: auto;
+    background:none;
+    gap: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+}
+
+.card img{
+    background:none;
+    width: 200px;
+}
+
+.card h2{
+    background: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card p {
+    background: none;
+    font-size: 14px;
+}
+
+.card2 {
+    display: block;
+    margin: 30px 20px 0px 20px;
+    background:none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #343A40;
+}
+
+.resultado {
+    background-color:#FFFFFF;
+    border-style:hidden;
+    margin: auto;
+    width: 80%;
+    height: 78%;
+    outline: none;
+    resize: none;
+    color: #495057;
+    font: 20px 'Inter', sans-serif;
+}
+
+.button-copiar {
+    width: 50%;
+    height: 60px;
+    border-radius: 24px;
+    font-size: 14px;
+    border-color: #495051;
+    background-color: #FFFFFF;
+    color:#495051;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin: 25px 0 20px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+@media screen and (max-width:480px) {
+
+    h1 {
+        float: none;
+        display: block;
+        padding: 16px 24px;
+    }
+    .container{
+        display: inline;
+        margin: auto;
+    }
+
+    .campo-captura {
+        margin: 80px 20px 0 20px;
+        gap:10px;
+    }
+
+    .campo-captura textarea {
+        font-size: 32px;
+        height: 300px;
+    }
+
+    .campo-resultado {
+        margin: 20px;
+        width: auto;
+    }
+
+    .buttons {
+        display: block;
+    }
+    
+    .button-encriptar, .button-desencriptar {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .campo-resultado {
+        margin: 0 20px 35px 20px;
+        padding: 30px 0;
+        box-shadow: 0px 24px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .card img {
+        display: none;
+    }
+}
