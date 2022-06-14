@@ -63,7 +63,7 @@ const inputBlocked= document.querySelector("#captura");
 
 inputBlocked.addEventListener("keypress", function(e){
 
-    if (!checkChar(e)){
+    if (!checkChar(e)||(!(/^[a-z\s]*$/g).test(e))){
         e.preventDefault();
         alert("solo minúsculas sin acentos ni saltos de línea")
     }
